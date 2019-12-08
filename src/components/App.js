@@ -32,6 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='ui container' style={{ marginTop: "20px" }}>
+      <h1 style={{textAlign: "center", color: "steelblue", letterSpacing: "2px"}}>U-TUBE-VIDEOS-APP</h1>
         <SearchBar onTermSubmit={this.onTermSubmit} />
         <div className='ui grid'>
           <div className='ui row'>
